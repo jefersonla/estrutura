@@ -18,7 +18,7 @@ _Bool insere(ListaInt *l, int x){
     for (i = 0; (i < l->nElems) && (l->chave[i] != x); i++);
     if (i == MTAMLISTA)
         return 0;
-    l->nElems = l->chave[i] == x ? ++i : i;
+    l->nElems = l->chave[i] == x ? ++i;
     l->chave[i] = x;
     return 1;
 }
