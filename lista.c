@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 #define MTAMLISTA 10
 
 typedef struct{
